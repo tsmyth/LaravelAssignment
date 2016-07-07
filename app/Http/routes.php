@@ -11,28 +11,6 @@
 |
 */
 
-//Route::get('/', function () {
-//    return view('login');
-//});
-
-//Route::get('/login', function () {
-//    return view('login');
-//});
-
-//Route::get('/register', function () {
-//    return view('register');
-//});
-
-//Route::get('/settings', function () {
-//    return view('settings');
-//});
-
-//Route::get('/logout', function () {
-//    return view('logout');
-//});
-
-//Route::get('/home', 'HomeController@index');
-
 Route::group(['middleware' => ['web']], function () {
 
     Route::get('/', function () {

@@ -71,7 +71,6 @@ class AuthController extends Controller
         ]);
         // Create a profile for our new user
         $user->profile()->save(new Profile);
-
         return $user;
     }
 }
